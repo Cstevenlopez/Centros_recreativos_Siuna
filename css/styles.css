@@ -1,0 +1,173 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+/* Para el slider de imagenes */
+.contenedor1
+{
+	width: 100%;
+    overflow: hidden;
+}
+
+.texto1{
+	position: absolute;
+    top: 2%; 
+    left: 10%;
+    font-size: 380%;
+    color:white;
+}
+.texto2
+{
+	position: absolute;
+    top: 30%;
+    left: 29%;
+    color: white;
+    font-size: 300%;
+}
+.contenido-slider
+{
+	width: 105%;
+	height: 900px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+	flex-shrink: 0;
+	opacity: 0.9;
+}
+.contenido-slider:nth-child(1)
+{
+    background: rgb(11, 90, 73);
+    color: white;
+}
+.contenido-slider:nth-child(2)
+{
+    background: rgba(129, 11, 11, 0.986);
+    color: white;
+}
+.contenido-slider:nth-child(3)
+{
+    background: rgb(32, 32, 82);
+    color: white;
+}
+.contenido-slider > img
+{
+    width: 100%;
+}
+.slider-contenedor
+{
+    width: 100%;
+    display: flex;
+}
+@media screen and (max-width:900px)
+{
+    .contenido-slider > img
+    {
+        width: 250px;
+    }
+    .contenido-slider > div
+    {
+        width: 40%;
+    }
+    .contenido-slider > p
+    {
+        font-size: 23px;
+    } 
+}
+@media screen and (max-width:600px)
+{
+    .contenido-slider > img
+    {
+        flex-direction: column-reverse;
+    }
+    .contenido-slider > div
+    {
+        width: 80%;
+    }
+    
+}
+/* Fin de slider de imagenes */
+
+body{
+	font-family:'Open sans';
+	width: 100%;
+}
+.contenedor{
+	padding: 60px 0;
+	width: 90%;
+	max-width: 1500px;
+	margin: auto;
+	overflow: hidden;
+
+} 
+.titulo{
+	color: #642a73;
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 60px;
+
+}
+
+nav{
+	text-align: right;
+	padding: 30px 50px 0 0;
+}
+nav > a{
+	color: #fff;
+	font-weight: 300;
+	text-decoration: none;
+	margin-right: 10px;
+}
+nav > a:hover{
+	text-decoration: underline;
+}
+
+
+/*galeria*/
+.portafolio{
+	background: #f2f2f2;
+}
+.galeria-port{
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+.imagen-port{
+width: 33%;
+margin-bottom: 10px;
+height: 290px;
+overflow: hidden;
+position: relative;
+cursor: pointer;
+box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+}
+.imagen-port > img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	display: block;
+}
+.hover-galeria{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	transform: scale(0);
+	background: hsla(273, 91%, 27%, 0.7);
+	transition: transform .5s;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.hover-galeria img{
+	width: 50px;
+
+}
+.hover-galeria p{
+	color: #fff;	
+}
+.imagen-port:hover .hover-galeria {
+	transform: scale(1);
+} 
