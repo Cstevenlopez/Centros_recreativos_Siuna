@@ -10,23 +10,23 @@
     width: 100%;
     overflow: hidden;
 }
-
 .texto1{
 	position: absolute;
     top: 20%; 
     left: 0%;
-    font-size: 380%;
+    font-size: 350%;
     background-color: rgba(32, 32, 82, 0.205);
     color: rgba(224, 224, 235, 0.884);
 }
 .texto2
 {
 	position: absolute;
-    top: 59.8%;
-    left: 29%;
+    top: 40.4%;
+    left: 0%;
+    margin-left: 20%;
     background-color: rgba(32, 32, 82, 0.205);
     color: rgba(224, 224, 235, 0.884);
-    font-size: 250%;
+    font-size: 210%;
 }
 .contenido-slider
 {
@@ -107,28 +107,44 @@ body{
 	color: #642a73;
 	font-size: 30px;
 	text-align: center;
-	margin-bottom: 60px;
+    margin-bottom: 60px;
 
 }
+.line2
+{
+    width: 100%;
+    margin: auto;
+    height: 2px;
+    background-color: rgb(79, 79, 150);
+    margin-bottom: 60px;
 
-nav{
-	text-align: right;
-	padding: 30px 50px 0 0;
+}
+.contenedor-menu
+{
+    width: 100%;
+    padding: 0;
+}
+.menu
+{
+    background-color:rgb(32, 32, 82);
+    padding: 10px;
 }
 nav > a{
-	color: #fff;
-	font-weight: 300;
+    color: #fff;
+    padding: 10px;
+    font-size: 20px;
 	text-decoration: none;
-	margin-right: 10px;
+    margin-right: 20px;
 }
 nav > a:hover{
-	text-decoration: underline;
+    background-color: rgba(94, 94, 146, 0.596);
+    margin: 10px;
 }
 
 
 /*galeria*/
 .portafolio{
-	background: rgb(178, 178, 180);
+	background: rgb(235, 235, 243);
 }
 .galeria-port{
 	display: flex;
@@ -176,7 +192,7 @@ box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
 /* Footer */
 footer
 {
-    background: rgba(32, 32, 82, 0.733);
+    background: rgb(32, 32, 82);
     padding-bottom: 0.1px;
 }
 .footer-contenido
