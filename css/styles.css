@@ -97,10 +97,10 @@ body{
 }
 .contenedor{
 	padding: 60px 0px 100px;
-	width: 91%;
+	width: 100%;
 	max-width: 1500px;
 	margin: auto;
-	overflow: hidden;
+    overflow: hidden;
 
 } 
 .titulo{
@@ -126,7 +126,7 @@ body{
 }
 .menu
 {
-    background-color:rgb(32, 32, 82);
+    background-color:rgb(129, 129, 136);
     padding: 10px;
 }
 nav > a{
@@ -137,14 +137,15 @@ nav > a{
     margin-right: 20px;
 }
 nav > a:hover{
-    background-color: rgba(94, 94, 146, 0.596);
-    margin: 10px;
+    background-color: rgba(209, 209, 224, 0.596);
+    margin: 15px;
 }
 
 
 /*galeria*/
 .portafolio{
-	background: rgb(235, 235, 243);
+    background: rgb(206, 206, 228);
+    padding: 10px 100px;
 }
 .galeria-port{
 	display: flex;
@@ -192,7 +193,7 @@ box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
 /* Footer */
 footer
 {
-    background: rgb(32, 32, 82);
+    background: rgb(104, 104, 124);
     padding-bottom: 0.1px;
 }
 .footer-contenido
