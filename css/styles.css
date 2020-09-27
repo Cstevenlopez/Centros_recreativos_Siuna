@@ -1,35 +1,37 @@
 *{
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box;
+    box-sizing: border-box;
 
 }
 /* Para el slider de imagenes */
 .contenedor1
 {
-	width: 100%;
+    width: 100%;
     overflow: hidden;
 }
 
 .texto1{
 	position: absolute;
-    top: 2%; 
-    left: 10%;
+    top: 20%; 
+    left: 0%;
     font-size: 380%;
-    color:white;
+    background-color: rgba(32, 32, 82, 0.205);
+    color: rgba(224, 224, 235, 0.884);
 }
 .texto2
 {
 	position: absolute;
-    top: 30%;
+    top: 59.8%;
     left: 29%;
-    color: white;
-    font-size: 300%;
+    background-color: rgba(32, 32, 82, 0.205);
+    color: rgba(224, 224, 235, 0.884);
+    font-size: 250%;
 }
 .contenido-slider
 {
-	width: 105%;
-	height: 900px;
+	width: 100%;
+	height: 600px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -39,7 +41,7 @@
 .contenido-slider:nth-child(1)
 {
     background: rgb(11, 90, 73);
-    color: white;
+    color: rgb(180, 4, 4);
 }
 .contenido-slider:nth-child(2)
 {
@@ -94,8 +96,8 @@ body{
 	width: 100%;
 }
 .contenedor{
-	padding: 60px 0;
-	width: 90%;
+	padding: 60px 0px 100px;
+	width: 91%;
 	max-width: 1500px;
 	margin: auto;
 	overflow: hidden;
@@ -126,7 +128,7 @@ nav > a:hover{
 
 /*galeria*/
 .portafolio{
-	background: #f2f2f2;
+	background: rgb(178, 178, 180);
 }
 .galeria-port{
 	display: flex;
@@ -174,7 +176,7 @@ box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
 /* Footer */
 footer
 {
-    background: #9f8ad0;
+    background: rgba(32, 32, 82, 0.733);
     padding-bottom: 0.1px;
 }
 .footer-contenido
@@ -228,7 +230,7 @@ footer
 }
 .line
 {
-    width: 90%;
+    width: 100%;
     max-width: 1200px;
     margin: auto;
     height: 2px;
