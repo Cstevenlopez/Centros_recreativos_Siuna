@@ -12,19 +12,19 @@
 }
 .texto1{
 	position: absolute;
-    top: 20%; 
+    top: 16%; 
     left: 0%;
-    font-size: 350%;
-    background-color: rgba(32, 32, 82, 0.205);
-    color: rgba(224, 224, 235, 0.884);
+    font-size: 320%;
+    /*background-color: rgba(32, 32, 82, 0.205);*/
+    color: rgba(220, 220, 240, 0.884);
 }
 .texto2
 {
 	position: absolute;
     top: 40.4%;
     left: 0%;
-    margin-left: 20%;
-    background-color: rgba(32, 32, 82, 0.205);
+    margin-left: 8%;
+   /* background-color: rgba(230, 230, 240, 0.205);*/
     color: rgba(224, 224, 235, 0.884);
     font-size: 210%;
 }
@@ -144,7 +144,7 @@ nav > a:hover{
 
 /*galeria*/
 .portafolio{
-    background: rgb(206, 206, 228);
+    background: #fff;
     padding: 10px 100px;
 }
 .galeria-port{
