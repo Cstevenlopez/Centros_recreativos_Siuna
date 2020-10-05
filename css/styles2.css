@@ -21,19 +21,18 @@ body{
 }
 .menu
 {
-    background-color:rgb(129, 129, 136);
-    padding: 10px;
+    background-color:rgb(144, 144, 247);
+    padding: 0px;
 }
 nav > a{
     color: #fff;
-    padding: 5px;
     font-size: 20px;
 	text-decoration: none;
     margin-right: 20px;
+    padding: 10px;
 }
 nav > a:hover{
     background-color: rgba(209, 209, 224, 0.596);
-    margin: 5px;
 }
 
 
@@ -82,7 +81,7 @@ nav > a:hover{
 /* Footer */
 footer
 {
-    background: #9f8ad0;
+    background: rgb(144, 144, 247);
     padding-bottom: 0.1px;
 }
 .footer-contenido
