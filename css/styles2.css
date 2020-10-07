@@ -210,7 +210,7 @@ footer
 }
 @media(min-width:1280px){
     .contenedor{
-        width: 1200px;
+        width: 89%;
     }
      .banner .contenedor .banner__titulo{
         font-size: 90px; 
@@ -276,6 +276,44 @@ a{
     display: flex;
     height: 100%;
 }
+/*--------------*/
+.slick1{
+    position: relative;
+    width: 700px;
+    padding: 0 18px;
+    float: left;
+    box-sizing: border-box;
+    display: flex;
+    height: 100%;
+
+}
+ 
+.slick1 h4{
+    position: absolute;
+    z-index: 1;
+    font-size: 22px;
+    line-height: 23px;
+    color: black;
+    padding: 15px;
+}
+.slick1 h4 small{
+    font-size: 15px;
+    display: block;
+}
+.slick1 a img{
+    object-fit: cover;
+    height: 300px;
+    width: 250%;
+    max-width: px;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.5);
+    transition: .3s ease-in-out;
+}
+.slick1 a img:hover{
+    opacity: .85;
+}
+/*--------------*/
+
 .slick h4{
     position: absolute;
     z-index: 1;
@@ -392,7 +430,7 @@ a{
 }
 
 .carousel__lista {
-	overflow: hidden;
+    overflow: hidden;
 }
 
 .carousel__elemento {
@@ -430,5 +468,12 @@ a{
 	}
 }
 
-
+/*mapa*/
+.mapa{
+    width: 40%;
+    margin: auto;
+}
+.texto-mapa{
+    text-align: center;
+}
 
