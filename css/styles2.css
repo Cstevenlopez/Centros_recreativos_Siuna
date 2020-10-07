@@ -487,42 +487,7 @@ a{
 
 
 /*comentarios*/
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
-}
-
-body{
-    padding-bottom: 50px;
-}
-
-.background{
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 0;
-    filter: blur(10px)
-}
-
-.capa{
-    width: 100%;
-    height: 100%;
-    background: white;
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: .2;
-}
-
-.background img{
-    width: 200%;
-}
-
-main{
+.contenedor-comentarios{
     width: 100%;
     max-width: 800px;
     margin: auto;
@@ -531,7 +496,7 @@ main{
     position: relative;
 }
 
-main h1{
+.contenedor-comentarios > h1{
     text-align: center;
     font-size: 40px;
 }
