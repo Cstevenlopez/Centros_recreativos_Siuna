@@ -468,5 +468,12 @@ a{
 	}
 }
 
-
+/*mapa*/
+.mapa{
+    width: 40%;
+    margin: auto;
+}
+.texto-mapa{
+    text-align: center;
+}
 
