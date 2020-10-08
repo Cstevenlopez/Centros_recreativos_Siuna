@@ -144,7 +144,7 @@ nav > a:hover{
 /*galeria*/
 .portafolio{
     width: 100%;
-    background: rgb(183, 183, 197);
+    background: rgba(94, 94, 109, 0.747);
     padding: 10px 100px;
 }
 .galeria-port{
@@ -261,6 +261,7 @@ footer
 
 /* Principal */
 .portafolio2{
+    width: 100%;
     background: rgb(183, 183, 197);
     padding: 30px;
 }
@@ -316,10 +317,10 @@ div.hover-galeria a
     font-size: 25px;
     color: white;
 }
-/* Formulario de contacto */
+
 div.form-contacto
 {
-    width: 100%;
+
     padding-top: 40px;
     margin-left: 80px;
 }
@@ -411,4 +412,7 @@ div.otra-informacion
     margin-right: 40px;
 
 }
-
+#Email,#nombre,#Asunto,#Mensaje::placeholder
+{
+    text-align: center;
+}
