@@ -319,7 +319,7 @@ div.hover-galeria a
 /* Formulario de contacto */
 div.form-contacto
 {
-    width: 40%;
+    width: 100%;
     padding-top: 40px;
     margin-left: 80px;
 }
@@ -350,7 +350,7 @@ div.form-contacto > fieldset
 div.Botones > input
 {
     margin-top: 20px;
-    width: 400  px;
+    width: 400px;
     height: 40px;
     border-radius: 10px;
     border: 0px;
@@ -393,6 +393,22 @@ div.mensaje > label
 .contenedor-contacto
 {
     width: 100%;
+    height: auto;
     background-color: black;
+}
+div.otra-informacion > h1
+{
+    color: white;
+    text-align: justify;
+}
+div.otra-informacion
+{
+    width: 55%;
+    height: 400px;
+    margin-top: 50px;
+    border: 1px solid red;
+    float: right;
+    margin-right: 40px;
+
 }
 
