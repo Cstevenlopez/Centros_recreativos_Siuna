@@ -884,12 +884,12 @@ div.otra-informacion
 
 }
 .content {
-    padding: 90px 0;
+    width: 100%;
 
 }
 
 .abo {
-    width: 40%;
+    width: 10%;
 }
 
 .abo p {
