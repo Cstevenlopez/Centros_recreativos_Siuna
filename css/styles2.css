@@ -883,3 +883,17 @@ div.otra-informacion
     margin-right: 40px;
 
 }
+.content {
+    padding: 90px 0;
+
+}
+
+.abo {
+    width: 40%;
+}
+
+.abo p {
+    width: 40%;
+    margin: 0 auto;
+    text-align: justify;
+}
