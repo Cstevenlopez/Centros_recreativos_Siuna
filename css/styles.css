@@ -396,17 +396,17 @@ div.mensaje > label
     height: auto;
     background-color: black;
 }
-div.otra-informacion > h1
+div.otra-informacion > p
 {
     color: white;
-    text-align: justify;
+    font-size: 30px;
+    text-align: center;
 }
 div.otra-informacion
 {
-    width: 55%;
-    height: 400px;
+    width: 750px;
+    height: 380px;
     margin-top: 50px;
-    border: 1px solid red;
     float: right;
     margin-right: 40px;
 
